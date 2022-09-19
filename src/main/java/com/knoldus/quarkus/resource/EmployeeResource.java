@@ -1,7 +1,7 @@
 package com.knoldus.quarkus.resource;
 
 import com.knoldus.quarkus.model.Employee;
-import com.knoldus.quarkus.producer.EmployeeProducer;
+import com.knoldus.quarkus.service.EmployeeService;
 
 import javax.inject.Inject;
 import javax.validation.Valid;
@@ -18,11 +18,11 @@ import javax.ws.rs.core.Response;
 public class EmployeeResource {
 
     @Inject
-    EmployeeProducer employeeProducer;
+    EmployeeService employeeService;
 
     @POST
     public Response createEmployee(@Valid Employee employee) {
-        employeeProducer.createEmployee(employee);
+        employeeService.createEmployee(employee);
         return Response.accepted().build();
     }
 }
