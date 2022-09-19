@@ -1,0 +1,6 @@
+com/knoldus/quarkus/producer/EmployeeProducer.class
+com/knoldus/quarkus/model/Employee.class
+com/knoldus/quarkus/consumer/EmployeeConsumer.class
+com/knoldus/quarkus/utils/EmployeeSerializer.class
+com/knoldus/quarkus/resource/EmployeeResource.class
+com/knoldus/quarkus/utils/EmployeeDeserializer.class

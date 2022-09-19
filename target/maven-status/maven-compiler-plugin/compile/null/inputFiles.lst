@@ -1,0 +1,4 @@
+/home/knoldus/workspace/quarkus-with-kafka/src/main/java/com/knoldus/quarkus/model/Movie.java
+/home/knoldus/workspace/quarkus-with-kafka/src/main/java/com/knoldus/quarkus/consumer/MovieConsumer.java
+/home/knoldus/workspace/quarkus-with-kafka/src/main/java/com/knoldus/quarkus/resource/MovieResource.java
+/home/knoldus/workspace/quarkus-with-kafka/src/main/java/com/knoldus/quarkus/producer/MovieProducer.java

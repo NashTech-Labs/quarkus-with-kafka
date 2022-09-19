@@ -1,0 +1,4 @@
+com/knoldus/quarkus/resource/MovieResource.class
+com/knoldus/quarkus/consumer/MovieConsumer.class
+com/knoldus/quarkus/producer/MovieProducer.class
+com/knoldus/quarkus/model/Movie.class
